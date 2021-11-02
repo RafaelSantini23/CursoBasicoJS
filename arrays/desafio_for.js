@@ -1,0 +1,17 @@
+
+//como eu fiz
+//const numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+/*for(let i = 8; i >= 0; i-= 2) {
+    
+    console.log(numeros[i]);
+}*/
+
+//como o professor fez
+
+const numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+for(let i = numeros.length - 2; i >= 0; i -=2) {
+    console.log(numeros[i]);
+}
+
